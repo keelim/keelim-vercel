@@ -11,6 +11,14 @@ const nextConfig = {
         hostname: '*.public.blob.vercel-storage.com'
       }
     ]
+  },
+  compiler: {
+    relay: {
+      src: './',
+      artifactDirectory: './__generated__',
+      language: 'typescript',
+      eagerEsModules: false
+    }
   }
 };
 
