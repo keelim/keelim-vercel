@@ -13,12 +13,7 @@ const nextConfig = {
     ]
   },
   compiler: {
-    relay: {
-      src: './',
-      artifactDirectory: './__generated__',
-      language: 'typescript',
-      eagerEsModules: false
-    }
+    relay: require('./relay.config')
   }
 };
 
