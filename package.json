@@ -4,7 +4,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "relay": "relay-compiler",
+    "codegen:fetch": "node scripts/schema "
   },
   "dependencies": {
     "@neondatabase/serverless": "^0.9.4",
@@ -21,17 +23,24 @@
     "autoprefixer": "^10.4.19",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
+    "cross-undici-fetch": "^0.4.14",
+    "dotenv": "^16.4.5",
     "drizzle-kit": "^0.22.8",
     "drizzle-orm": "^0.31.2",
     "drizzle-zod": "^0.5.1",
     "firebase": "^10.12.3",
+    "gradient-string": "^2.0.2",
+    "graphql": "^16.9.0",
     "lucide-react": "^0.400.0",
     "next": "15.0.0-canary.57",
     "next-auth": "5.0.0-beta.19",
     "postcss": "^8.4.39",
+    "progress": "^2.0.3",
     "prop-types": "^15.8.1",
     "react": "19.0.0-rc.0",
     "react-dom": "19.0.0-rc.0",
+    "react-relay": "^17.0.0",
+    "relay-runtime": "^17.0.0",
     "server-only": "^0.0.1",
     "tailwind-merge": "^2.3.0",
     "tailwindcss": "^3.4.4",
@@ -46,9 +55,12 @@
     "trailingComma": "none"
   },
   "devDependencies": {
+    "@types/react-relay": "^16.0.6",
+    "@types/relay-runtime": "^17.0.1",
     "eslint": "^8",
     "eslint-config-next": "14.2.5",
     "eslint-config-prettier": "^9.1.0",
-    "prettier": "^3.3.3"
+    "prettier": "^3.3.3",
+    "relay-compiler": "^17.0.0"
   }
 }
