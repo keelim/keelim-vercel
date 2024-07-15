@@ -3,6 +3,7 @@ import { File, PlusCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { ProductsTable } from './products-table';
 import { getProducts } from '@/lib/db';
+import firebase from 'firebase/compat';
 
 export default async function ProductsPage({
   searchParams
@@ -15,6 +16,8 @@ export default async function ProductsPage({
     search,
     Number(offset)
   );
+
+  firebase.analytics().logEvent('메인 화면 진입');
 
   return (
     <Tabs defaultValue="all">
