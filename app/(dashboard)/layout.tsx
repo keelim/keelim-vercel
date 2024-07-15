@@ -31,6 +31,7 @@ import { VercelLogo } from '@/components/icons';
 import Providers from './providers';
 import { NavItem } from './nav-item';
 import { SearchInput } from './search';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 export default function DashboardLayout({
   children
@@ -53,6 +54,7 @@ export default function DashboardLayout({
           </main>
         </div>
         <Analytics />
+        <SpeedInsights />
       </main>
     </Providers>
   );
