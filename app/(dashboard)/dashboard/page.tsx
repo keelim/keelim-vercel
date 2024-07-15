@@ -10,8 +10,8 @@ export default function AnalyticsPage() {
   return (
     <Card>
       <CardHeader>
-        <CardTitle>Home</CardTitle>
-        <CardDescription>View Home</CardDescription>
+        <CardTitle>DashBoard</CardTitle>
+        <CardDescription>View dashboard</CardDescription>
       </CardHeader>
       <CardContent></CardContent>
     </Card>
