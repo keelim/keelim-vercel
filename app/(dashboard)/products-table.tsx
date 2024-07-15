@@ -1,11 +1,11 @@
 'use client';
 
 import {
-  TableHead,
-  TableRow,
-  TableHeader,
+  Table,
   TableBody,
-  Table
+  TableHead,
+  TableHeader,
+  TableRow
 } from '@/components/ui/table';
 import {
   Card,
