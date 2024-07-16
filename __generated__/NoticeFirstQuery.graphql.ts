@@ -1,5 +1,5 @@
 /**
- * @generated SignedSource<<3c1e5bed687936441629a7b7ee130340>>
+ * @generated SignedSource<<c52481d5bd7aba981fcc3a83a587c26c>>
  * @lightSyntaxTransform
  * @nogrep
  */
@@ -17,7 +17,7 @@ export type NoticeFirstQuery$data = {
         readonly created_at: any;
         readonly description: string;
         readonly fixed: boolean | null | undefined;
-        readonly noticeId: any;
+        readonly notice_id: any;
         readonly title: string;
       };
     }>;
@@ -40,7 +40,7 @@ v1 = {
   "alias": null,
   "args": null,
   "kind": "ScalarField",
-  "name": "noticeId",
+  "name": "notice_id",
   "storageKey": null
 },
 v2 = {
@@ -159,7 +159,7 @@ return {
                     "alias": null,
                     "args": null,
                     "kind": "ScalarField",
-                    "name": "id",
+                    "name": "nodeId",
                     "storageKey": null
                   }
                 ],
@@ -174,16 +174,16 @@ return {
     ]
   },
   "params": {
-    "cacheID": "8f5279279e4077c91228b5fb32e0920a",
+    "cacheID": "ef2c6f8999515ba8d3fe621429588d33",
     "id": null,
     "metadata": {},
     "name": "NoticeFirstQuery",
     "operationKind": "query",
-    "text": "query NoticeFirstQuery {\n  noticeCollection(first: 1) {\n    edges {\n      node {\n        noticeId\n        created_at\n        title\n        description\n        fixed\n        id\n      }\n    }\n  }\n}\n"
+    "text": "query NoticeFirstQuery {\n  noticeCollection(first: 1) {\n    edges {\n      node {\n        notice_id\n        created_at\n        title\n        description\n        fixed\n        nodeId\n      }\n    }\n  }\n}\n"
   }
 };
 })();
 
-(node as any).hash = "e68c47a5c45ce5a0718a5fe4a1183e74";
+(node as any).hash = "896cbaf137d0caf2c5af0a28c70b336c";
 
 export default node;

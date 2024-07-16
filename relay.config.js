@@ -12,13 +12,5 @@ module.exports = {
   schemaConfig: {
     nodeInterfaceIdField: 'nodeId',
     nodeInterfaceIdVariableName: 'nodeId'
-  },
-  customScalars: {
-    UUID: 'string',
-    Datetime: 'string',
-    JSON: 'string',
-    BigInt: 'string',
-    BigFloat: 'string',
-    Opaque: 'any'
   }
 };
