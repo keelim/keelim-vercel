@@ -1,7 +1,7 @@
 import { graphql } from 'react-relay';
 
 const NoticeQuery = graphql`
-  query NoticeCollection {
+  query NoticeFirstQuery {
     noticeCollection(first: 1) {
       edges {
         node {
