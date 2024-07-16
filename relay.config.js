@@ -8,5 +8,17 @@ module.exports = {
     '**/__mocks__/**',
     '**/__generated__/**'
   ],
-  language: 'typescript'
+  language: 'typescript',
+  schemaConfig: {
+    nodeInterfaceIdField: 'nodeId',
+    nodeInterfaceIdVariableName: 'nodeId'
+  },
+  customScalars: {
+    UUID: 'string',
+    Datetime: 'string',
+    JSON: 'string',
+    BigInt: 'string',
+    BigFloat: 'string',
+    Opaque: 'any'
+  }
 };
