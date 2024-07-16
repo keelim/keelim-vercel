@@ -5,8 +5,7 @@ const NoticeQuery = graphql`
     noticeCollection(first: 1) {
       edges {
         node {
-          nodeId
-          id
+          noticeId
           created_at
           title
           description
