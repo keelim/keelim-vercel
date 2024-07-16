@@ -234,7 +234,7 @@ type Mutation {
 
 interface Node {
   """Retrieves a record by `ID`"""
-  id: ID!
+  nodeId: ID!
 }
 
 """Any type not handled by the type system"""
@@ -389,8 +389,8 @@ input UUIDListFilter {
 
 type notice implements Node {
   """Globally Unique Record Identifier"""
-  id: ID!
-  noticeId: BigInt!
+  nodeId: ID!
+  notice_id: BigInt!
   created_at: Datetime!
   title: String!
   description: String!
@@ -416,7 +416,7 @@ type noticeEdge {
 }
 
 input noticeFilter {
-  id: BigIntFilter
+  notice_id: BigIntFilter
   created_at: DatetimeFilter
   title: StringFilter
   description: StringFilter
@@ -453,7 +453,7 @@ type noticeInsertResponse {
 }
 
 input noticeOrderBy {
-  id: OrderByDirection
+  notice_id: OrderByDirection
   created_at: OrderByDirection
   title: OrderByDirection
   description: OrderByDirection
