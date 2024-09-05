@@ -1,7 +1,6 @@
-import { NextApiRequest, NextApiResponse } from 'next';
+export async function GET() {
+  let data = await fetch('https://api.vercel.app/blog');
+  let posts = await data.json();
 
-export default function handler(req: NextApiRequest, res: NextApiResponse) {
-  res.status(20).json({
-    status: 'good'
-  });
+  return Response.json(posts);
 }
