@@ -35,7 +35,7 @@
     "graphql": "^16.9.0",
     "lucide-react": "^0.400.0",
     "next": "15.0.0-canary.57",
-    "next-auth": "5.0.0-beta.19",
+    "next-auth": "5.0.0-beta.22",
     "postcss": "^8.4.39",
     "progress": "^2.0.3",
     "prop-types": "^15.8.1",
