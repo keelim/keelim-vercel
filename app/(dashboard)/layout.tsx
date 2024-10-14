@@ -7,7 +7,8 @@ import {
   PanelLeft,
   Settings,
   ShoppingCart,
-  Users2
+  Users2,
+  History,
 } from 'lucide-react';
 
 import {
@@ -90,6 +91,10 @@ function DesktopNav() {
 
         <NavItem href="/analytics" label="Analytics">
           <LineChart className="h-5 w-5" />
+        </NavItem>
+
+        <NavItem href="/timer" label="Timer">
+          <History className="h-5 w-5" />
         </NavItem>
       </nav>
       <nav className="mt-auto flex flex-col items-center gap-4 px-2 sm:py-5">
