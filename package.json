@@ -58,6 +58,7 @@
     "trailingComma": "none"
   },
   "devDependencies": {
+    "@types/bun": "^1.1.13",
     "@types/react-relay": "^16.0.6",
     "@types/relay-runtime": "^18.1.1",
     "eslint": "^9.15.0",
