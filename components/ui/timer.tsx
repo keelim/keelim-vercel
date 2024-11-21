@@ -13,7 +13,7 @@ export default function CustomTimer() {
   const [inputSeconds, setInputSeconds] = useState("")
 
   useEffect(() => {
-    let interval: NodeJS.Timeout | null = null
+    let interval: Timer | null = null;
 
     if (isActive && time > 0) {
       interval = setInterval(() => {
