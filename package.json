@@ -6,7 +6,8 @@
     "start": "next start",
     "lint": "next lint",
     "relay": "relay-compiler",
-    "codegen:fetch": "node scripts/schema "
+    "codegen:fetch": "node scripts/schema ",
+    "depcheck": "bunx depcheck"
   },
   "dependencies": {
     "@neondatabase/serverless": "^0.10.3",
