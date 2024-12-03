@@ -29,7 +29,7 @@
     "firebase": "^11.0.2",
     "gradient-string": "^3.0.0",
     "graphql": "^16.9.0",
-    "lucide-react": "^0.454.0",
+    "lucide-react": "^0.464.0",
     "next": "15.0.2",
     "next-auth": "5.0.0-beta.19",
     "progress": "^2.0.3",
