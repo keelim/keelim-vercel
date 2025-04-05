@@ -34,7 +34,7 @@
     "gradient-string": "^3.0.0",
     "graphql": "^16.10.0",
     "lucide-react": "^0.454.0",
-    "next": "15.2.3",
+    "next": "15.2.4",
     "next-auth": "5.0.0-beta.19",
     "npm-check-updates": "^17.1.13",
     "postcss": "^8.4.49",
